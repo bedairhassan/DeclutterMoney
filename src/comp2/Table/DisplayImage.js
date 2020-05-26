@@ -13,7 +13,6 @@ const DisplayImage = ({ keeyy, value }) => {
     for (let i = 0; i < value; i++) {
 
         const string = keeyy === 1 ? `coin` : keeyy
-        console.log(keeyy)
 
         imgs.push({
             alt: `Display image of money paper with value of ${value}`,

@@ -13,7 +13,7 @@ function Parent() {
     const [value, valueSet] = useState(-1)
     const [isAllow, isAllowSet] = useState(false)
 
-    const Allow = (data) => isAllow ? data : [{ key: ``, value: -1 }]
+    const Allow = (data) => isAllow ? data : [{ key: 1, value: 1 }]
 
     return (
         <React.Fragment>
