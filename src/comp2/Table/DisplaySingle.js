@@ -1,4 +1,5 @@
 import React from 'react'
+import DisplayImage from './DisplayImage'
 
 const DisplaySingle = ({item:{key,value}})=>{
 
@@ -6,6 +7,7 @@ const DisplaySingle = ({item:{key,value}})=>{
         return(<tr>
             <td>{key}</td>
             <td>{value}</td>
+            <td><DisplayImage keeyy={key} value={value}/></td>
             </tr>)
     }else{
         return(<tr></tr>)
